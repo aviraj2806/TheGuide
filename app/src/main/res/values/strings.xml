@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">The Guide</string>
+
+    <string name="gandhiji">Mohandas Karamchand Gandhi was an eminent freedom activist and an influential political leader who played a dominant role in India\'s struggle for independence. Gandhi is known by different names, such as Mahatma (a great soul), Bapuji (endearment for father in Gujarati) and Father of the Nation.</string>
+    <string name="swamiji">Swami Vivekananda was a Hindu monk and one of the most celebrated spiritual leaders of India. He was more than just a spiritual mind; he was a prolific thinker, great orator and passionate patriot. He carried on the free-thinking philosophy of his guru, Ramakrishna Paramhansa forward into a new paradigm. He worked tirelessly towards betterment of the society, in servitude of the poor and needy, dedicating his all for his country.</string>
+    <string name="bose">Subhash Chandra Bose is one of the most dynamic leaders of India’s struggle of independence. He is popularly known as Netaji. He was born in Cuttack, in Orissa on January 23, 1897 to Janaki Nath Bose and Prabhavati Devi. His father was a famous lawyer and his mother was a religious lady. Among the fourteen siblings, he was the ninth child.</string>
+    <string name="first_name">Mahatma Gandhi</string>
+    <string name="first_title">Freedom Fighter</string>
+    <string name="first_quote">Be the change that you wish to see in the world.</string>
+    <string name="second_name">Swami Vivekanand</string>
+    <string name="second_title">Spiritual Influencer</string>
+    <string name="second_quote">You have to grow from the inside out. None can teach you, none can make you spiritual. There is no other teacher but your own soul.</string>
+    <string name="third_name">Subhas Chandra Bose</string>
+    <string name="third_title">INA Leader</string>
+    <string name="third_quote">Soldiers who always remain faithful to their nation, who are always prepared to sacrifice their lives, are invincible.</string>
+
+</resources>

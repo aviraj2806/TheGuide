@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "606690114956",
+    "firebase_url": "https://theguide-448e0.firebaseio.com",
+    "project_id": "theguide-448e0",
+    "storage_bucket": "theguide-448e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606690114956:android:25ea5b2205e8fbdc2aeaa9",
+        "android_client_info": {
+          "package_name": "com.mitadt.theguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606690114956-ugd088ib294258l477r2pfedn333shsn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mitadt.theguide",
+            "certificate_hash": "3095d76ca2f912bf012c71e351ded38324c0695d"
+          }
+        },
+        {
+          "client_id": "606690114956-5nuruib12p7pak05snovnn424ko6i479.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt6wjlB0WxcCsiUhh5JOoZVr7Z0awcUEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606690114956-5nuruib12p7pak05snovnn424ko6i479.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

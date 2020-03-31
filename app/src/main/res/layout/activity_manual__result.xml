@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Manual_Result">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#aa212121"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/disp_next"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/jugad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/back_option"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/pic"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/gandhiji"
+                        app:civ_border_color="#9e9e9e"
+                        app:civ_border_width="3dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="left|center_vertical"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/avenir_light"
+                            android:text="Mahatma Gandhi"
+                            android:textColor="#eeeeee"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/avenir_light"
+                            android:text="Freedom Fighter"
+                            android:textColor="#9e9e9e"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/quote"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/avenir_light"
+                            android:text="Be the change that you wish to see in the world."
+                            android:textColor="#9e9e9e" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/disp"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/intro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/avenir_light"
+                        android:text="@string/gandhiji"
+                        android:textColor="#9e9e9e"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/player"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/button"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <SeekBar
+                        android:id="@+id/player_seek"
+                        android:layout_width="match_parent"
+                        android:progressBackgroundTint="#424242"
+                        android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            app:srcCompat="@drawable/music"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/player_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="Mahatma Gandhi"
+                                android:textColor="#000000"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:id="@+id/player_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="(Freedom Fighter)"
+                                android:textColor="#000000"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/player_play"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:padding="5dp"
+                            app:srcCompat="@drawable/play"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <ImageView
+                            android:id="@+id/player_pause"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:padding="5dp"
+                            app:srcCompat="@drawable/pause"
+                            tools:ignore="VectorDrawableCompat" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/read"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button"
+                    android:drawableRight="@drawable/web"
+                    android:fontFamily="@font/avenir_light"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="Read More   "
+                    android:textColor="#212121"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/audio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button"
+                    android:drawableRight="@drawable/music"
+                    android:fontFamily="@font/avenir_light"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="Listen Audio"
+                    android:textColor="#212121"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

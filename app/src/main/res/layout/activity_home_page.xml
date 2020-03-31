@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#aa212121"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:drawableRight="@drawable/journal"
+                    android:fontFamily="@font/helvetica_light45"
+                    android:gravity="center"
+                    android:text="The Guide  "
+                    android:textSize="45sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="15sp"
+                    android:background="@drawable/disp"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/manual"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40sp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="40sp"
+                    android:background="@drawable/button"
+                    android:drawableRight="@drawable/next"
+                    android:fontFamily="@font/avenir_light"
+                    android:gravity="left|center_vertical"
+                    android:padding="5dp"
+                    android:text="Manual Guide"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/otg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40sp"
+                    android:background="@drawable/button"
+                    android:drawableRight="@drawable/next"
+                    android:fontFamily="@font/avenir_light"
+                    android:gravity="left|center_vertical"
+                    android:padding="5dp"
+                    android:text="On The Go"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="15sp"
+                    android:background="@drawable/disp"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/helvetica_light45"
+                        android:gravity="center"
+                        android:text="Welcome To The Guide"
+                        android:textColor="#eeeeee"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/avenir_light"
+                        android:text="Want to check out some amazing facts about the statues present inside the World's Largest Dome? You are using the right application. 'The Guide' is always there to help you out. It fetches the information of each and every statue as you walk through them."
+                        android:textColor="#bdbdbd"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:gravity="center"
+                        android:text="INSTRUCTIONS :"
+                        android:textColor="#EEEEEE" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/avenir_light"
+                        android:text="Use 'Manual Guide' feature for getting information about all the statues."
+                        android:textColor="#bdbdbd"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/avenir_light"
+                        android:text="Use 'On The Go' feature for getting information about the statue as you walk through it."
+                        android:textColor="#bdbdbd"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>
